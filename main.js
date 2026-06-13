@@ -3,7 +3,7 @@
 // ── Ticker typewriter ──
 const phrases = [
   "FinTech Undergraduate",
-  "Data Scientist",
+  "Data Analyst",
   "Web Developer",
   "ITU Lahore · 2025–2029",
 ];
