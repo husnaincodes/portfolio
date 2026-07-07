@@ -1,4 +1,3 @@
-/* main.js */
 
 // ── Ticker typewriter ──
 const phrases = [
