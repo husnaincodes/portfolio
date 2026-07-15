@@ -2,7 +2,7 @@
 
 A personal portfolio website for **Husnain Tayab**, B.S. FinTech student at ITU Lahore. Built with vanilla HTML, CSS, and JavaScript, featuring a dark, terminal-inspired design.
 
-🔗 **Live Site:** _add your Vercel deployment URL here_
+🔗 **Live Site:** _https://portfolio-husnaincodes-projects.vercel.app/_
 
 ---
 
