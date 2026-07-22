@@ -78,4 +78,4 @@ Open to internships in banking, IT, and data science.
 
 - ✉️ husnaintayab47@gmail.com
 - ☎ 0304-3400439
-- in [linkedin.com/in/husnain-tayab-332640398](https://linkedin.com/in/husnain-tayab-332640398/)
+- in [www.linkedin.com/in/husnaintayab](www.linkedin.com/in/husnaintayab)
