@@ -38,25 +38,28 @@ const observer = new IntersectionObserver(
 cards.forEach((c) => observer.observe(c));
 
 // ── Nav scroll style ──
-const nav = document.getElementById("nav");
+const nav = document.querySelector(".navbar");
 window.addEventListener("scroll", () => {
-  nav.style.background =
-    window.scrollY > 60 ? "rgba(10,10,15,0.97)" : "rgba(10,10,15,0.85)";
+  if (nav) {
+    nav.style.background =
+      window.scrollY > 60 ? "rgba(10,10,15,0.97)" : "rgba(10,10,15,0.85)";
+  }
 });
 
 // ── Hamburger (mobile) ──
-const hamburger = document.getElementById("hamburger");
-const navLinks = document.querySelector(".nav-links");
-hamburger.addEventListener("click", () => {
-  const open = navLinks.style.display === "flex";
-  navLinks.style.cssText = open
-    ? ""
-    : "display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;padding:1.5rem;background:rgba(10,10,15,0.98);border-bottom:1px solid rgba(255,255,255,0.07);gap:1.25rem;";
-});
+const hamburger = document.getElementById("navToggle");
+const navLinks = document.querySelector(".nav-panel");
+if (hamburger && navLinks) {
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+}
 // Close on link click (mobile)
-navLinks.querySelectorAll("a").forEach((a) =>
-  a.addEventListener("click", () => { navLinks.style.cssText = ""; })
-);
+if (navLinks) {
+  navLinks.querySelectorAll("a").forEach((a) =>
+    a.addEventListener("click", () => { navLinks.classList.remove("active"); })
+  );
+}
 
 // ── Active nav link highlight ──
 const sections = document.querySelectorAll("section[id]");

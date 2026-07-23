@@ -2,358 +2,502 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Husnain Tayab-FinTech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#020617" />
+  <meta name="description" content="Husnain Tayab is a software engineer portfolio focused on modern web apps, AI-powered products, automation, and polished digital experiences." />
+  <meta name="keywords" content="software engineer, frontend developer, portfolio, vanilla javascript, ui ux, python, AI, web development" />
+  <meta name="author" content="Husnain Tayab" />
+  <meta property="og:title" content="Husnain Tayab | Software Engineer Portfolio" />
+  <meta property="og:description" content="Premium portfolio showcasing web development, AI solutions, Python automation, and product thinking." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Husnain Tayab | Software Engineer Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232563eb'/%3E%3Cstop offset='100%25' stop-color='%2338bdf8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='18' fill='url(%23g)'/%3E%3Cpath d='M17 24h12c6 0 10 3 10 8s-4 8-10 8H24v8h-7V24zm7 13h4c2 0 4-1 4-5s-2-5-4-5h-4v10z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Husnain Tayab",
+    "jobTitle": "Software Engineer",
+    "url": "https://portfolio-husnaincodes-projects.vercel.app/",
+    "sameAs": [
+      "https://github.com/husnaincodes",
+      "https://www.linkedin.com/in/husnaintayab/"
+    ]
+  }
+  </script>
 </head>
 <body>
- 
-  
-  <nav class="nav" id="nav">
-    <span class="nav-logo">HT<span class="accent">.</span></span>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#github">GitHub</a></li>
-      <li><a href="#contact" class="nav-cta">Contact</a></li>
-    </ul>
-    <button class="hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
- 
- 
-  <section class="hero" id="about">
-    <div class="hero-grid">
-      <div class="hero-text">
-        <p class="eyebrow"><span class="ticker" id="ticker"></span></p>
-        <h1>Husnain<br/><span class="outline-text">Tayab</span></h1>
-        <p class="hero-tagline">
-          FinTech Undergraduate · Data Scientist · Web Developer<br/>
-          <span class="mono">ITU Lahore &mdash; CGPA 3.43 / 4.00</span>
-        </p>
-        <p class="hero-bio">
-          Building at the intersection of finance and technology. I turn raw data into insight and APIs into products — from live weather dashboards to digital wallet engines.
-        </p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn-primary">View Projects</a>
-          <a href="mailto:husnaintayab47@gmail.com" class="btn-ghost">Get in Touch</a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="terminal-card">
-          <div class="terminal-bar">
-            <span class="dot red"></span>
-            <span class="dot yellow"></span>
-            <span class="dot green"></span>
-            <span class="terminal-title">husnain@itu ~ profile.py</span>
-          </div>
-          <pre class="terminal-body"><code><span class="kw">class</span> <span class="cls">HusnainTayab</span>:
-  name    = <span class="str">"Husnain Tayab"</span>
-  degree  = <span class="str">"B.S. FinTech (2025–2029)"</span>
-  cgpa    = <span class="num">3.43</span>
-  city    = <span class="str">"Lahore, Pakistan"</span>
- 
-  stack = [
-    <span class="str">"Python"</span>, <span class="str">"JavaScript"</span>,
-    <span class="str">"React"</span>, <span class="str">"Node.js"</span>,
-    <span class="str">"Pandas"</span>, <span class="str">"MongoDB"</span>
-  ]
- 
-  goals = [
-    <span class="str">"Data Analysis"</span>,
-    <span class="str">"Data Science"</span>,
-    <span class="str">"FinTech Innovation"</span>
-  ]</code></pre>
-        </div>
-      </div>
-    </div>
-   
-  </section>
- 
-  
-  <section class="section" id="skills">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-label">Technical Arsenal</p>
-        <h2>Skills &amp; Tools</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-card" data-delay="0">
-          <div class="skill-icon">⌨️</div>
-          <h3>Programming</h3>
-          <ul>
-            <li><span class="tag">Python</span></li>
-            <li><span class="tag">JavaScript</span></li>
-            <li><span class="tag">C++</span></li>
-          </ul>
-        </div>
-        <div class="skill-card" data-delay="100">
-          <div class="skill-icon">🌐</div>
-          <h3>Web Development</h3>
-          <ul>
-            <li><span class="tag">HTML5</span></li>
-            <li><span class="tag">CSS3</span></li>
-            <li><span class="tag">React</span></li>
-            <li><span class="tag">Node.js</span></li>
-            <li><span class="tag">Bootstrap</span></li>
-            <li><span class="tag">Next.js</span></li>
-          </ul>
-        </div>
-        <div class="skill-card" data-delay="200">
-          <div class="skill-icon">📊</div>
-          <h3>Data &amp; Analytics</h3>
-          <ul>
-            <li><span class="tag">Pandas</span></li>
-            <li><span class="tag">NumPy</span></li>
-            <li><span class="tag">Matplotlib</span></li>
-            <li><span class="tag">Data Visualization</span></li>
-          </ul>
-        </div>
-        <div class="skill-card" data-delay="300">
-          <div class="skill-icon">🗄️</div>
-          <h3>Databases</h3>
-          <ul>
-            <li><span class="tag">MongoDB</span></li>
-            <li><span class="tag">SQLite</span></li>
-          </ul>
-        </div>
-        <div class="skill-card" data-delay="400">
-          <div class="skill-icon">🤖</div>
-          <h3>Emerging Skills</h3>
-          <ul>
-            <li><span class="tag">AI Prompting</span></li>
-            <li><span class="tag">Financial Modeling</span></li>
-          </ul>
-        </div>
-        <div class="skill-card" data-delay="500">
-          <div class="skill-icon">🛠️</div>
-          <h3>Productivity</h3>
-          <ul>
-            <li><span class="tag">MS Excel</span></li>
-            <li><span class="tag">PowerPoint</span></li>
-            <li><span class="tag">Canva</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
- 
- 
-  <section class="section section-dark" id="projects">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-label">Real-World Builds</p>
-        <h2>Projects</h2>
-      </div>
-      <div class="projects-list">
+  <div class="loading-screen" id="loadingScreen" aria-hidden="true">
+    <div class="loading-orb"></div>
+    <p>Building a premium experience...</p>
+  </div>
 
-        <article class="project-card featured highlight">
-          <div class="project-meta">
-            <span class="project-tag">Python · scikit-learn · Machine Learning</span>
-            <span class="project-status new">● New</span>
-          </div>
-          <h3>Dragon Real Estate — Price Predictor</h3>
-          <p>End-to-end machine learning pipeline that predicts median house prices using the classic Boston Housing dataset (506 records, 14 features). Includes stratified train/test splitting on the Charles River feature, correlation-driven feature engineering (a custom TAXRM ratio), a StandardScaler preprocessing pipeline, and a Random Forest Regressor validated with 10-fold cross-validation before final testing on the held-out set.</p>
-          <div class="project-tech">
-            <span>Python</span><span>scikit-learn</span><span>Pandas</span><span>NumPy</span><span>Random Forest</span><span>joblib</span>
-          </div>
-          <a href="https://github.com/husnaincodes/Machine-Learning-Projects" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
- 
-        <article class="project-card featured">
-          <div class="project-meta">
-            <span class="project-tag">React,Node.js,MongoDB · FinTech</span>
-            <span class="project-status live">● Live</span>
-          </div>
-          <h3>Weather Forecasting App</h3>
-          <p>Real-time weather application with live API integration, deployed end-to-end from development to production. Demonstrates API consumption, data processing, and full-stack deployment.</p>
-          <div class="project-tech">
-            <span>Python</span><span>REST API</span><span>Deployment</span>
-          </div>
-          <a href="https://weather-web-app-two-ebon.vercel.app/" class="project-link" target="_blank" rel="noopener">Click to View→</a>
-        </article>
- 
-        <article class="project-card featured">
-          <div class="project-meta">
-            <span class="project-tag">Python · OOP</span>
-            <span class="project-status">Core Banking</span>
-          </div>
-          <h3>Digital Wallet Simulation</h3>
-          <p>Full digital wallet engine implementing core banking functionality: account creation, fund transfers, balance tracking, and transaction history — built with clean object-oriented design.</p>
-          <div class="project-tech">
-            <span>Python</span><span>OOP</span><span>FinTech</span>
-          </div>
-          <a href="https://github.com/husnaincodes" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
-        </article>
- 
-        <article class="project-card featured">
-          <div class="project-meta">
-            <span class="project-tag">Basic Excel · Advanced Excel</span>
-            <span class="project-status">Core Banking</span>
-          </div>
-          <h3>Automated Financial Reporting Dashboard in Excel</h3>
-          <p>Developed a fully automated Excel-based financial reporting system where all financial statements update automatically from General Journal entries. Users only need to enter transactions in the General Journal sheet, and the system automatically generates and updates the sheets.</p>
-          <div class="project-tech">
-            <span>Excel</span><span>Automation</span><span>FinTech</span>
-          </div>
-         
-        </article>
-        <article class="project-card featured">
-          <div class="project-meta">
-            <span class="project-tag">Web Development</span>
-            <span class="project-status live">● Live</span>
-          </div>
-          <h3>URL Shortener Web App</h3>
-          <p>Developed a web application that allows users to shorten long URLs for easier sharing and management. The app features a clean, user-friendly interface and provides real-time analytics on link performance.</p>
-          <div class="project-tech">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span>
-          </div>
-          <a href="https://urls-shortener-ten.vercel.app/" class="project-link" target="_blank" rel="noopener">Click to View→</a>
-        </article>
- 
-      </div>
-    </div>
-  </section>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
 
-  <!-- CERTIFICATIONS -->
-  <section class="section" id="certifications">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-label">Verified Learning</p>
-        <h2>Certifications</h2>
-      </div>
-      <div class="cert-grid">
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#hero" aria-label="Home">
+        <span class="brand-mark">HT</span>
+        <span class="brand-text">Husnain Tayab</span>
+      </a>
 
-        <article class="cert-card">
-          <div class="cert-image-wrap">
-            <img src="certificate-ai-for-everyone.png" alt="AI For Everyone certificate, DeepLearning.AI, Coursera" loading="lazy" />
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+        <span class="theme-toggle-track"><span class="theme-toggle-thumb"></span></span>
+      </button>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-panel" id="primaryNav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Volunteer Experience</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact" class="nav-cta">Hire Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="hero">
+      <div class="hero-background" aria-hidden="true">
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+        <span class="orb orb-three"></span>
+        <div class="particles" id="particles"></div>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span><span id="typingText"></span></p>
+          <h1>Software engineer crafting premium digital products.</h1>
+          <p class="hero-lead">I build intelligent software, AI-powered products, and modern web experiences that solve real-world problems.</p>
+          <p class="hero-summary">Focused on clean architecture, beautiful interfaces, and measurable product value across frontend, automation, and AI workflows.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary ripple" href="#projects">View Projects</a>
+            <a class="btn btn-secondary ripple" href="#contact">Hire Me</a>
+            
+          
           </div>
-          <div class="cert-body">
-            <span class="cert-issuer">DeepLearning.AI · Coursera</span>
+
+          <div class="hero-metrics" aria-label="Highlights">
+            <article>
+              <strong data-counter="14">0</strong>
+              <span>Projects Completed</span>
+            </article>
+            <article>
+              <strong data-counter="3">0</strong>
+              <span>Certificates</span>
+            </article>
+            <article>
+              <strong data-counter="6">0</strong>
+              <span>Core Tech Stacks</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-card glass-card tilt-card">
+            <div class="profile-image-wrap">
+              <img src="developer.jpeg" alt="Husnain Tayab portrait" loading="eager" />
+            </div>
+            <div class="profile-card-body">
+              <div class="profile-badge-row">
+                <span class="pill pill-accent">Open to opportunities</span>
+                <span class="pill">Remote / Hybrid</span>
+              </div>
+              <h2>Husnain Tayab</h2>
+              <p>Software Engineer • UI-minded frontend developer • AI product builder</p>
+              <div class="profile-chip-grid">
+                <span>Frontend</span><span>Python</span><span>AI</span><span>Automation</span><span>Cloud</span><span>Data</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section">
+        <span></span>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <section class="section-shell section-alt" id="about">
+      <div class="section-heading reveal">
+        <p class="section-kicker">About</p>
+        <h2>Built to earn trust fast.</h2>
+        <p>My work sits at the intersection of engineering, product thinking, and polished execution. I care about performance, clarity, and interfaces that feel expensive.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card glass-card reveal">
+          <h3>Professional Biography</h3>
+          <p>FinTech undergraduate at ITU Lahore building products with a strong bias toward usability, strong technical foundations, and real outcomes. I combine JavaScript, Python, and AI tooling to ship solutions that look polished and behave reliably.</p>
+          <div class="about-tags">
+            <span>Product Engineering</span><span>System Thinking</span><span>Visual Design</span><span>AI Workflows</span>
+          </div>
+        </article>
+
+        <article class="about-card glass-card reveal">
+          <h3>Career Timeline</h3>
+          <div class="timeline compact">
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div><strong>2025 - Present</strong><p>FinTech studies at ITU Lahore with a focus on software products and analytics.</p></div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div><strong>Projects & Freelance Builds</strong><p>Developed dashboards, automation tools, and public-facing web experiences.</p></div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div><strong>Future Goal</strong><p>Ship production-grade products for top-tier teams and high-growth startups.</p></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="about-card glass-card reveal">
+          <h3>Highlights</h3>
+          <div class="stats-stack">
+            <div><strong data-counter="14">0</strong><span>Projects Completed</span></div>
+            <div><strong data-counter="3">0</strong><span>Certificates Earned</span></div>
+            <div><strong data-counter="6">0</strong><span>Technology Categories</span></div>
+            <div><strong data-counter="2">0</strong><span>Volunteer Experiences</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Skills</p>
+        <h2>Technical depth with broad execution range.</h2>
+      </div>
+
+      <div class="skills-layout">
+        <article class="skill-panel glass-card reveal">
+          <div class="panel-header"><h3>Frontend</h3><span>UI engineering</span></div>
+          <div class="skill-bar" data-level="92"><span>HTML, CSS, Responsive Design</span><i></i></div>
+          <div class="skill-bar" data-level="90"><span>JavaScript, DOM, Animation</span><i></i></div>
+          <div class="skill-bar" data-level="84"><span>React ecosystem familiarity</span><i></i></div>
+        </article>
+
+        <article class="skill-panel glass-card reveal">
+          <div class="panel-header"><h3>Backend & Data</h3><span>Systems & analysis</span></div>
+          <div class="skill-bar" data-level="88"><span>Python, Automation, OOP</span><i></i></div>
+          <div class="skill-bar" data-level="80"><span>Node.js, APIs, Integration</span><i></i></div>
+          <div class="skill-bar" data-level="78"><span>SQL, analytics, data handling</span><i></i></div>
+        </article>
+
+        <article class="skill-panel glass-card reveal">
+          <div class="panel-header"><h3>AI, Cloud & DevOps</h3><span>Modern workflow</span></div>
+          <div class="skill-bar" data-level="86"><span>Prompt engineering, AI tools</span><i></i></div>
+          <div class="skill-bar" data-level="74"><span>Cloud deployment patterns</span><i></i></div>
+          <div class="skill-bar" data-level="70"><span>Git, CI habits, collaboration</span><i></i></div>
+        </article>
+      </div>
+
+      <div class="icon-cloud reveal" aria-label="Core technologies">
+        <span>Python</span><span>JavaScript</span><span>React</span><span>Node</span><span>SQL</span><span>Git</span><span>Machine Learning</span><span>Cloud</span><span>DevOps</span><span>AI</span>
+      </div>
+    </section>
+
+    <section class="section-shell section-alt" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Projects</p>
+        <h2>Featured work built to impress.</h2>
+        <p>Filterable case studies, polished presentation, and direct access to GitHub, live demos, and deeper context.</p>
+      </div>
+
+      <div class="project-toolbar glass-card reveal">
+        <div class="filter-group" id="projectFilters" role="tablist" aria-label="Project filters">
+          <button class="filter-btn active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="web" type="button">Web</button>
+          <button class="filter-btn" data-filter="ai" type="button">AI</button>
+          <button class="filter-btn" data-filter="data" type="button">Data</button>
+          <button class="filter-btn" data-filter="automation" type="button">Automation</button>
+        </div>
+        <label class="search-box">
+          <span>Search projects</span>
+          <input id="projectSearch" type="search" placeholder="Type a keyword like weather, wallet, or Excel" aria-label="Search projects" />
+        </label>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card glass-card reveal featured" data-category="data ai" data-title="Dragon Real Estate Price Predictor">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" alt="Data analytics dashboard preview" loading="lazy" />
+            <span class="featured-badge">Featured Project</span>
+          </div>
+          <div class="card-body">
+            <div class="project-meta"><span>Python</span><span>scikit-learn</span><span>Data Science</span></div>
+            <h3>Dragon Real Estate Price Predictor</h3>
+            <p>End-to-end machine learning pipeline with feature engineering, preprocessing, and Random Forest regression validated through cross-validation.</p>
+            <div class="card-links">
+              <a href="https://github.com/husnaincodes/Machine-Learning-Projects" target="_blank" rel="noopener">GitHub</a>
+              <a href="#contact">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" data-category="web" data-title="Weather Forecasting App">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80" alt="Weather app preview" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div class="project-meta"><span>JavaScript</span><span>API Integration</span><span>Web App</span></div>
+            <h3>Weather Forecasting App</h3>
+            <p>Real-time weather interface with clean deployment-ready UX and API-powered live data flow.</p>
+            <div class="card-links">
+              <a href="https://weather-web-app-two-ebon.vercel.app/" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/husnaincodes" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" data-category="automation" data-title="Digital Wallet Simulation">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&w=1200&q=80" alt="Fintech dashboard preview" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div class="project-meta"><span>Python</span><span>OOP</span><span>FinTech</span></div>
+            <h3>Digital Wallet Simulation</h3>
+            <p>Core banking-inspired wallet system for transactions, account creation, and clean state management.</p>
+            <div class="card-links">
+              <a href="https://github.com/husnaincodes" target="_blank" rel="noopener">GitHub</a>
+              <a href="#contact">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" data-category="automation data" data-title="Automated Financial Reporting Dashboard">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80" alt="Excel reporting preview" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div class="project-meta"><span>Excel</span><span>Automation</span><span>Reporting</span></div>
+            <h3>Automated Financial Reporting Dashboard</h3>
+            <p>Financial statements update automatically from journal entries for faster reporting and fewer manual errors.</p>
+            <div class="card-links">
+              <a href="#contact">Case Study</a>
+              <a href="mailto:husnaintayab47@gmail.com">Discuss</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" data-category="web" data-title="URL Shortener Web App">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?auto=format&fit=crop&w=1200&q=80" alt="URL shortener preview" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div class="project-meta"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>URL Shortener Web App</h3>
+            <p>Clean link shortening experience with a practical, user-friendly interface and analytics-ready flow.</p>
+            <div class="card-links">
+              <a href="https://urls-shortener-ten.vercel.app/" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/husnaincodes" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell" id="experience">
+      <div class="section-heading reveal">
+        <p class="section-kicker"> Volunteer Experience</p>
+        <h2>Execution, not just ideas.</h2>
+      </div>
+
+      <div class="timeline experience-timeline reveal">
+        <article class="timeline-item glass-card">
+  <div class="timeline-meta">
+    <span class="timeline-year">Ongoing</span>
+    <span class="timeline-company">Alkhidmat Foundation</span>
+  </div>
+  <h3>Volunteer Social Worker</h3>
+  <ul>
+    <li>Volunteering as a social worker with Alkhidmat Foundation, one of Pakistan's largest welfare organizations, known for its work in relief, education, health, and community development.</li>
+    <li>Contributing time toward on-ground community support initiatives alongside academic and technical work.</li>
+  </ul>
+</article>
+<article class="timeline-item glass-card">
+  <div class="timeline-meta">
+    <span class="timeline-year">Ongoing</span>
+    <span class="timeline-company">The Citizen Foundation (TCF)</span>
+  </div>
+  <h3>Fundraising Volunteer</h3>
+  <ul>
+    <li>Volunteering with The Citizen Foundation (TCF), a nonprofit that builds and runs low-cost formal schools for underprivileged children across Pakistan.</li>
+    <li>Supporting fundraising efforts aimed at expanding access to quality education for school children from low-income communities.</li>
+  </ul>
+</article>
+      </div>
+    </section>
+
+    <section class="section-shell section-alt certificate-section" id="certificates">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Certificates</p>
+        <h2>Verified learning that supports the story.</h2>
+      </div>
+
+      <div class="certificate-grid">
+        <article class="certificate-card glass-card reveal">
+          <img src="certificate-ai-for-everyone.png" alt="AI For Everyone certificate" loading="lazy" />
+          <div>
+            <p>DeepLearning.AI • Coursera</p>
             <h3>AI For Everyone</h3>
-            <p>Completed the foundational course on AI concepts, workflow, and strategy taught by Andrew Ng, covering how AI creates value across business and society.</p>
-            <a href="https://coursera.org/verify/3OWEFDAQ1Y9H" class="project-link" target="_blank" rel="noopener">Verify Certificate →</a>
+            <a href="https://coursera.org/verify/3OWEFDAQ1Y9H" target="_blank" rel="noopener">Verify</a>
           </div>
         </article>
-
-        <article class="cert-card">
-          <div class="cert-image-wrap">
-            <img src="certificate-data-analytics-python.png" alt="Data Analytics with Python certificate, Simplilearn, Coursera" loading="lazy" />
-          </div>
-          <div class="cert-body">
-            <span class="cert-issuer">Simplilearn · Coursera</span>
+        <article class="certificate-card glass-card reveal">
+          <img src="certificate-data-analytics-python.png" alt="Data Analytics with Python certificate" loading="lazy" />
+          <div>
+            <p>Simplilearn • Coursera</p>
             <h3>Data Analytics with Python</h3>
-            <p>Completed hands-on training in data analysis workflows using Python, reinforcing practical skills in cleaning, processing, and visualizing data.</p>
-            <a href="https://coursera.org/verify/0YQ1FIYOLWCX" class="project-link" target="_blank" rel="noopener">Verify Certificate →</a>
+            <a href="https://coursera.org/verify/0YQ1FIYOLWCX" target="_blank" rel="noopener">Verify</a>
           </div>
         </article>
-
-        <article class="cert-card">
-          <div class="cert-image-wrap">
-            <img src="certificate-discover-art-of-prompting.png" alt="Discover the Art of Prompting certificate, Google, Coursera" loading="lazy" />
-          </div>
-          <div class="cert-body">
-            <span class="cert-issuer">Google · Coursera</span>
+        <article class="certificate-card glass-card reveal">
+          <img src="certificate-discover-art-of-prompting.png" alt="Discover the Art of Prompting certificate" loading="lazy" />
+          <div>
+            <p>Google • Coursera</p>
             <h3>Discover the Art of Prompting</h3>
-            <p>Completed Google's course on prompt engineering, covering techniques for crafting effective prompts to get better, more reliable results from AI systems.</p>
-            <a href="https://coursera.org/verify/QP7Q5D5S7NWC" class="project-link" target="_blank" rel="noopener">Verify Certificate →</a>
+            <a href="https://coursera.org/verify/QP7Q5D5S7NWC" target="_blank" rel="noopener">Verify</a>
           </div>
         </article>
+      </div>
+    </section>
 
+    <section class="section-shell" id="services">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Services</p>
+        <h2>What I can help you build.</h2>
       </div>
-    </div>
-  </section>
- 
-  <!-- GITHUB -->
-  <section class="section section-dark" id="github">
-    <div class="container">
-      <div class="section-header">
-        <p class="section-label">Open Source</p>
-        <h2>GitHub Portfolio</h2>
+
+      <div class="service-grid">
+        <article class="service-card glass-card reveal"><h3>Web Development</h3><p>High-end responsive sites and product interfaces.</p></article>
+        <article class="service-card glass-card reveal"><h3>Python Automation</h3><p>Scripts and workflows that remove manual work.</p></article>
+        <article class="service-card glass-card reveal"><h3>AI Solutions</h3><p>Prompt-driven tools and smart product experiences.</p></article>
+        <article class="service-card glass-card reveal"><h3>Dashboard Development</h3><p>Analytics and operations views with clarity.</p></article>
+        <article class="service-card glass-card reveal"><h3>API Integration</h3><p>Reliable data flows and external service wiring.</p></article>
+        <article class="service-card glass-card reveal"><h3>UI/UX Development</h3><p>Polished interfaces with strong visual hierarchy.</p></article>
       </div>
-      <div class="github-stats">
-        <div class="stat-block">
-          <span class="stat-num">14+</span>
-          <span class="stat-label">Public Repos</span>
+    </section>
+
+    <section class="section-shell section-alt" id="testimonials">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Testimonials</p>
+        <h2>Clear, confident, and client-friendly.</h2>
+      </div>
+
+      <div class="testimonial-shell glass-card reveal">
+        <button class="slider-btn" id="testimonialPrev" type="button" aria-label="Previous testimonial">‹</button>
+        <div class="testimonial-track" id="testimonialTrack">
+          <article class="testimonial-card active">
+            <p>“Strong eye for presentation and very structured delivery. The work feels like it was built by someone who understands users and engineering constraints.”</p>
+            <strong>Product Lead</strong>
+            <span>Web App Collaboration</span>
+          </article>
+          <article class="testimonial-card">
+            <p>“Quick to adapt, thoughtful about details, and always focused on turning ideas into something usable.”</p>
+            <strong>Startup Founder</strong>
+            <span>Prototype Review</span>
+          </article>
+          <article class="testimonial-card">
+            <p>“A polished portfolio that gives immediate trust. It communicates capability without needing extra explanation.”</p>
+            <strong>Recruiter</strong>
+            <span>Candidate Screening</span>
+          </article>
         </div>
-        <div class="stat-block">
-          <span class="stat-num">3</span>
-          <span class="stat-label">Featured Projects</span>
-        </div>
-        <div class="stat-block">
-          <span class="stat-num">1★</span>
-          <span class="stat-label">GitHub Star</span>
-        </div>
+        <button class="slider-btn" id="testimonialNext" type="button" aria-label="Next testimonial">›</button>
       </div>
-      <div class="repo-grid">
-        <a class="repo-card" href="https://github.com/husnaincodes/Python-Projects" target="_blank" rel="noopener">
-          <span class="repo-icon">🐍</span>
-          <div>
-            <strong>Python-Projects</strong>
-            <p>Collection of Python scripts and mini-projects</p>
-          </div>
-          <span class="repo-star">★ 1</span>
-        </a>
-        <a class="repo-card" href="https://github.com/husnaincodes" target="_blank" rel="noopener">
-          <span class="repo-icon">📈</span>
-          <div>
-            <strong>Data-Visualization</strong>
-            <p>Analysis &amp; visualization using Pandas &amp; Matplotlib</p>
-          </div>
-        </a>
-        <a class="repo-card" href="https://github.com/husnaincodes" target="_blank" rel="noopener">
-          <span class="repo-icon">🎨</span>
-          <div>
-            <strong>HTML-Practice-Projects</strong>
-            <p>Frontend projects showcasing HTML/CSS skills</p>
-          </div>
-        </a>
+    </section>
+
+    <section class="section-shell" id="blog">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Blog</p>
+        <h2>Latest thinking and learnings.</h2>
       </div>
-      <div class="github-cta">
-        <a href="https://github.com/husnaincodes" class="btn-primary" target="_blank" rel="noopener">github.com/husnaincodes</a>
+
+      <div class="blog-grid">
+        <article class="blog-card glass-card reveal"><span>Performance • 6 min read</span><h3>Why clean UI builds trust faster than clever copy</h3><p>A portfolio can create credibility before a recruiter reads your resume.</p></article>
+        <article class="blog-card glass-card reveal"><span>AI • 4 min read</span><h3>Using prompts as a product tool, not a shortcut</h3><p>How to turn prompt engineering into a reliable workflow for better outcomes.</p></article>
+        <article class="blog-card glass-card reveal"><span>Frontend • 7 min read</span><h3>Micro-interactions that make interfaces feel expensive</h3><p>Design principles behind smooth, premium-feeling software experiences.</p></article>
       </div>
+    </section>
+
+    <section class="section-shell section-contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Contact</p>
+        <h2>Ready for the right opportunity.</h2>
+        <p>Let’s build a product, ship a feature, or discuss a role that needs design awareness and engineering precision.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form glass-card reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@company.com" required />
+            </label>
+          </div>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="btn btn-primary ripple" type="submit">Send Message</button>
+            <button class="btn btn-ghost ripple" id="copyEmail" type="button">Copy Email</button>
+          </div>
+          <p class="form-note">EmailJS-ready structure. Messages are validated locally and can be wired to a backend later.</p>
+        </form>
+
+        <aside class="contact-panel glass-card reveal">
+          <div class="contact-links">
+            <a href="mailto:husnaintayab47@gmail.com"><span>Email</span><strong>husnaintayab47@gmail.com</strong></a>
+            <a href="https://www.linkedin.com/in/husnaintayab/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>husnain-tayab</strong></a>
+            <a href="https://github.com/husnaincodes" target="_blank" rel="noopener"><span>GitHub</span><strong>husnaincodes</strong></a>
+            <a href="tel:+923043400439"><span>Phone</span><strong>0304-3400439</strong></a>
+            <a href="#contact"><span>Location</span><strong>Lahore, Pakistan</strong></a>
+          </div>
+          <div class="map-placeholder">Google Map Placeholder</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Husnain Tayab</strong>
+      <p>Software engineer portfolio built with HTML, CSS, and vanilla JavaScript.</p>
     </div>
-  </section>
- 
-  <!-- CONTACT -->
-  <section class="section section-dark" id="contact">
-    <div class="container contact-wrap">
-      <div class="section-header">
-        <p class="section-label">Let's Connect</p>
-        <h2>Get in Touch</h2>
-      </div>
-      <p class="contact-sub">Open to internships in banking, IT, and data science. Always up for interesting FinTech conversations.</p>
-      <div class="contact-links">
-        <a href="mailto:husnaintayab47@gmail.com" class="contact-item">
-          <span class="ci-icon">✉</span>
-          <span>husnaintayab47@gmail.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/husnaintayab/" class="contact-item" target="_blank" rel="noopener">
-          <span class="ci-icon">in</span>
-          <span>husnain-tayab</span>
-        </a>
-        <a href="https://github.com/husnaincodes" class="contact-item" target="_blank" rel="noopener">
-          <span class="ci-icon">⌥</span>
-          <span>husnaincodes</span>
-        </a>
-        <a href="tel:+923043400439" class="contact-item">
-          <span class="ci-icon">☎</span>
-          <span>0304-3400439</span>
-        </a>
-      </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
-  </section>
-  
- 
-  <footer class="footer">
-    <p>Husnain Tayab &mdash; ITU Lahore &mdash; 2025</p>
-    <p class="mono">Built with HTML, CSS &amp;  JS</p>
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">Top</button>
   </footer>
- 
-  <script src="main.js"></script>
+
+  <noscript>
+    <div class="noscript-banner">This portfolio looks best with JavaScript enabled for animations and filtering.</div>
+  </noscript>
+
+  <script src="script.js"></script>
 </body>
 </html>
