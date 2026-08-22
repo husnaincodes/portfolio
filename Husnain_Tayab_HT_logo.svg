@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760">
+  <rect width="1000" height="760" fill="#080a0f"/>
+  <!-- HT monogram -->
+  <g transform="translate(250 55)">
+    <!-- H -->
+    <path fill="#ffffff" d="M0 0h78v118h100V0h78v350h-78V205H78v145H0z"/>
+    <!-- T -->
+    <path fill="#12a8ff" d="M285 0h280l-58 76h-72v274h-78V76h-72z"/>
+    <!-- integrated lower cuts -->
+    <path fill="#12a8ff" d="M78 350h100l-38-42H78z"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="500" y="505" text-anchor="middle"
+        fill="#ffffff" font-family="Montserrat, Arial, Helvetica, sans-serif"
+        font-size="62" font-weight="600" letter-spacing="10">HUSNAIN TAYAB</text>
+  <text x="500" y="575" text-anchor="middle"
+        fill="#12a8ff" font-family="Montserrat, Arial, Helvetica, sans-serif"
+        font-size="30" font-weight="500" letter-spacing="8">husnaincodes</text>
+</svg>

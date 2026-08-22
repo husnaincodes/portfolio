@@ -1,3 +1,5 @@
+
+
 :root {
   color-scheme: dark;
   --bg: #020617;
@@ -7,18 +9,18 @@
   --border: rgba(148, 163, 184, 0.18);
   --text: #f8fafc;
   --muted: #94a3b8;
-  --primary: #2563eb;
-  --accent: #38bdf8;
+  --primary: #1b1ece;
+  --accent: #0c9cfc;
   --success: #10b981;
   --shadow: 0 24px 70px rgba(2, 6, 23, 0.6);
-  --radius-xl: 32px;
-  --radius-lg: 24px;
-  --radius-md: 18px;
-  --radius-sm: 14px;
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 10px;
+  --radius-sm: 10px;
   --container: 1220px;
-  --serif: "Poppins", sans-serif;
+  --serif: "Inter", sans-serif;
   --sans: "Inter", sans-serif;
-  --display: "Space Grotesk", sans-serif;
+  --display: "Inter", sans-serif;
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
@@ -47,8 +49,8 @@ body {
   margin: 0;
   font-family: var(--sans);
   background:
-    radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), transparent 28%),
-    radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 24%),
+    radial-gradient(circle at top left, rgba(77, 166, 255, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(20, 119, 255, 0.12), transparent 24%),
     linear-gradient(180deg, #020617 0%, #040b1b 45%, #020617 100%);
   color: var(--text);
   overflow-x: hidden;
@@ -57,8 +59,8 @@ body {
 
 body[data-theme="light"] {
   background:
-    radial-gradient(circle at top left, rgba(56, 189, 248, 0.1), transparent 25%),
-    radial-gradient(circle at top right, rgba(37, 99, 235, 0.08), transparent 22%),
+    radial-gradient(circle at top left, rgba(77, 166, 255, 0.1), transparent 25%),
+    radial-gradient(circle at top right, rgba(20, 119, 255, 0.08), transparent 22%),
     linear-gradient(180deg, #f8fafc 0%, #edf2ff 45%, #f8fafc 100%);
 }
 
@@ -83,7 +85,7 @@ button {
 }
 
 ::selection {
-  background: rgba(56, 189, 248, 0.32);
+  background: rgba(255, 107, 53, 0.32);
   color: var(--text);
 }
 
@@ -102,7 +104,7 @@ button {
   width: 0;
   height: 100%;
   background: linear-gradient(90deg, var(--primary), var(--accent));
-  box-shadow: 0 0 16px rgba(56, 189, 248, 0.5);
+  box-shadow: 0 0 16px rgba(77, 166, 255, 0.5);
 }
 
 .cursor-glow {
@@ -112,7 +114,7 @@ button {
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  background: radial-gradient(circle, rgba(56, 189, 248, 0.14), transparent 62%);
+  background: radial-gradient(circle, rgba(77, 166, 255, 0.14), transparent 62%);
   mix-blend-mode: screen;
   z-index: 0;
   opacity: 0.8;
@@ -201,14 +203,9 @@ button {
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  border-radius: 14px;
-  color: white;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.28);
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 .brand-text {
@@ -302,7 +299,7 @@ button {
   border-radius: 999px;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   color: white !important;
-  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.28);
+  box-shadow: 0 12px 24px rgba(20, 119, 255, 0.28);
 }
 
 .section-shell {
@@ -339,7 +336,7 @@ button {
   left: 6%;
   width: 220px;
   height: 220px;
-  background: radial-gradient(circle, rgba(56, 189, 248, 0.2), transparent 65%);
+  background: radial-gradient(circle, rgba(77, 166, 255, 0.2), transparent 65%);
 }
 
 .orb-two {
@@ -347,7 +344,7 @@ button {
   right: 12%;
   width: 260px;
   height: 260px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.18), transparent 65%);
+  background: radial-gradient(circle, rgba(20, 119, 255, 0.18), transparent 65%);
   animation-delay: -4s;
 }
 
@@ -371,7 +368,7 @@ button {
   height: 5px;
   border-radius: 50%;
   background: rgba(148, 163, 184, 0.5);
-  box-shadow: 0 0 18px rgba(56, 189, 248, 0.4);
+  box-shadow: 0 0 18px rgba(77, 166, 255, 0.4);
   animation: drift linear infinite;
 }
 
@@ -501,7 +498,15 @@ button {
 .btn-primary {
   color: white;
   background: linear-gradient(135deg, var(--primary), var(--accent));
-  box-shadow: 0 16px 28px rgba(37, 99, 235, 0.28);
+  box-shadow: 0 16px 28px rgba(20, 20, 20, 0.28);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  color: var(--accent);
+  background: transparent;
+  border-color: var(--accent);
+  box-shadow: none;
 }
 
 .btn-secondary,
@@ -615,8 +620,8 @@ button {
 
 .pill-accent {
   color: white;
-  border-color: rgba(56, 189, 248, 0.36);
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.32), rgba(56, 189, 248, 0.28));
+  border-color: rgba(255, 107, 53, 0.36);
+  background: linear-gradient(135deg, rgba(20, 119, 255, 0.32), rgba(255, 107, 53, 0.28));
 }
 
 .scroll-indicator {
@@ -739,7 +744,7 @@ button {
   margin-top: 0.45rem;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--primary), var(--accent));
-  box-shadow: 0 0 16px rgba(56, 189, 248, 0.45);
+  box-shadow: 0 0 16px rgba(18, 18, 19, 0.45);
   flex-shrink: 0;
 }
 
@@ -807,7 +812,7 @@ button {
   width: 0;
   border-radius: inherit;
   background: linear-gradient(90deg, var(--primary), var(--accent));
-  box-shadow: 0 0 16px rgba(56, 189, 248, 0.3);
+  box-shadow: 0 0 16px rgba(77, 166, 255, 0.3);
   transition: width 1.2s var(--ease-out);
 }
 
@@ -867,8 +872,8 @@ button {
 .search-box input:focus,
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: rgba(56, 189, 248, 0.45);
-  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.1);
+  border-color: rgba(255, 107, 53, 0.45);
+  box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.1);
 }
 
 .project-grid {
@@ -883,8 +888,8 @@ button {
 }
 
 .project-card.featured {
-  border-color: rgba(56, 189, 248, 0.32);
-  background: linear-gradient(180deg, rgba(37, 99, 235, 0.1), transparent 60%), var(--surface);
+  border-color: rgba(77, 166, 255, 0.32);
+  background: linear-gradient(180deg, rgba(20, 119, 255, 0.1), transparent 60%), var(--surface);
 }
 
 .project-card.hidden {
@@ -1139,7 +1144,7 @@ button {
   border-radius: 20px;
   border: 1px dashed var(--border);
   background:
-    linear-gradient(135deg, rgba(37, 99, 235, 0.12), rgba(56, 189, 248, 0.08)),
+    linear-gradient(135deg, rgba(20, 119, 255, 0.12), rgba(77, 166, 255, 0.08)),
     rgba(255, 255, 255, 0.02);
 }
 
